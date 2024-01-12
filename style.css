@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+h2 {
+    position: relative;
+    font-size: 6em;
+    letter-spacing: 15px;
+    color: #126278;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: ;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+    line-height: 0.7em;
+    outline: none;
+    animation: animate 4s linear infinite;
+    margin: 10px;
+}
+
+@keyframes animate{
+    0%{
+        color: #0008;
+    }
+
+    25%{
+        color: #126278;
+    }
+
+    50%{
+        color: #0008;
+    }
+
+    75%{
+        color: #126278;
+    }
+
+    100%{
+        color: #0008;
+    }
+}
